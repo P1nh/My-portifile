@@ -5,20 +5,13 @@ import { grey, } from '@mui/material/colors';
 let theme = createTheme({
   palette: {
     primary: {
-      main: grey[500],
+      main: grey[800]
     },
     secondary: {
-      main: grey[900],
+      main: grey[400]
     },
   },
-
-    typography: {
-      fontFamily: [
-        "Rubik"
-      ].join(','),
-    },
-    
-  });
+});
   ;
   theme = responsiveFontSizes(theme)
 
