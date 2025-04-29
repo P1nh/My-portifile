@@ -38,7 +38,7 @@ const Hero = () => {
     document.body.removeChild(link);
   }
   const handleSite = () => {
-    window.open('http://localhost:5173/', '_blank', 'noopener,noreferrer')
+    window.open('https://github.com/P1nh/My-portifile', '_blank', 'noopener,noreferrer')
   }
   return (
     <>
