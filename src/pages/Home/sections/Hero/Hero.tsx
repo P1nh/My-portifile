@@ -49,9 +49,9 @@ const Hero = () => {
           maxWidth="xl"
           sx={{
             mx: {
-              xs: 'center',  // centralizado em telas pequenas
+              xs:  'center',  // centralizado em telas pequenas
               md: 2,       // pequena margem nos lados (theme.spacing(2) = 16px)
-              xl: 'cnter',  // centralizado em telas extragrandes
+              xl: 'center',  // centralizado em telas extragrandes
             },
             px: {
               xs: 2,       // padding lateral em telas pequenas
