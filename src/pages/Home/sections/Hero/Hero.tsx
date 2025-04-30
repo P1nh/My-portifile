@@ -6,14 +6,15 @@ import Avatar from "../../../../assets/imgs/avatar.png"
 import theme from "../../../../theme";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+
+
 const Hero = () => {
 
-  const StyledHero = styled("div")(() => ({
-    background: "white",
-    height: "100vh",
-    display: "flex",
-    alignItems: "center",
-
+  const StyledHero = styled('div')(({ theme }) => ({
+    background: 'white',
+    display: 'flex',
+    alignItems: 'center',
+    minHeight: `calc(100vh - ${theme.mixins.toolbar.minHeight}px)`,
   }))
 
   const StyledImg = styled("img")(() => ({
@@ -42,6 +43,7 @@ const Hero = () => {
   }
   return (
     <>
+    
       <StyledHero>
 
         <Container

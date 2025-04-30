@@ -1,13 +1,16 @@
-import Home from "./pages/Home/Home"
 
-const App = () => {
-  
+import { Box } from '@mui/material'
+import theme from './theme'
+import ResponsiveAppBar from './components/NavBar/NavBar'
+import Hero from './pages/Home/sections/Hero/Hero'
 
+function App() {
   return (
     <>
-    <Home/>
+      <ResponsiveAppBar />
+      <Box sx={theme.mixins.toolbar} />
+      <Hero />
     </>
   )
 }
-
 export default App
