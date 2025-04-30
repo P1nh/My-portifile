@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// substitua "meu-portfolio" pelo slug exato do seu repo no GitHub
 export default defineConfig({
+  base: '/My-portifile/',
   plugins: [react()],
 })
