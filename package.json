@@ -1,14 +1,14 @@
 {
   "name": "my-portifile",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.1.0",
+  "homepage": "https://P1nh.github.io/My-portifile",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

@@ -64,7 +64,7 @@ const Hero = () => {
         >
 
           <Grid container spacing={2} paddingTop="180px">
-            <Grid size={{ xs: 12, md: 8 }}>
+            <Grid size={{ xs: 12, md: 7 }}>
               <Typography fontWeight="" variant="h2" color="secondary">Arthur Pinheiro</Typography>
               <Typography lineHeight="1" variant="h1" color="primary">Website and user interface designer</Typography>
               <Grid  container width="10" spacing={4}>
@@ -83,7 +83,7 @@ const Hero = () => {
               </Grid>
             </Grid>
 
-            <Grid display="flex" padding="0" size={{ xs: 12, md: 4 }}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <StyledImg src={Avatar} alt="" />
             </Grid>
           </Grid>
